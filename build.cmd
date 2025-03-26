@@ -7,6 +7,8 @@ rem
 
 if "%1" equ "x64" (
   set ARCH=x64
+) else if "%1" equ "x86" (
+  set ARCH=x86
 ) else if "%1" equ "arm64" (
   set ARCH=arm64
 ) else if "%1" neq "" (
